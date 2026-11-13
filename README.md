@@ -1,8 +1,21 @@
 <div align="center">
-    <i>This project has been created as part of the 42 curriculum by npillet and bbeaurai</i>
     <h1>Pac-Man</h1>
     <h3>Ghosts! More ghosts!</h3>
+    <i>This project has been created as part of the 42 curriculum by npillet and bbeaurai</i>
 </div>
+
+## Table of Contents
+- [Description](#description)
+- [Instructions](#instructions)
+- [Configuration](#configuration)
+- [Highscore](#highscore)
+- [Maze Generation](#maze-generation)
+- [General Software Architecture & Implementation](#general-software-architecture--implementation)
+  - [General Software Architecture](#general-software-architecture)
+  - [Implementation](#implementation)
+- [Project Management](#project-management)
+- [Packaging & Itch.io](#packaging--itchio)
+- [Resources](#resources)
 
 ## Description
 **Pac-Man** was first created in 1980 by Namco. It has four ghosts who each have their own algorithm.</br>
@@ -324,8 +337,7 @@ The game's page can be found [**here**](https://nomipi.itch.io/pac-man-42). Acce
 
 ## Resources
 ### Notions
-#### Arcade library
-- https://api.arcade.academy/en/development/index.html
+- [Arcade Library](https://api.arcade.academy/en/development/index.html)
 
 ### GitHub
 - [noemiepi](https://github.com/noemiepi/A-Maze-ing)
@@ -337,3 +349,11 @@ The game's page can be found [**here**](https://nomipi.itch.io/pac-man-42). Acce
 ### AI Usage:
 AI (Claude Code) was used to find a few good classes and methods names and to help solve `make lint-strict` issues during development.<br>
 It was also used, in a later pass, to write every missing docstring in `src/engine/` and `src/renderer/` (Google style, PEP 257: purpose, `Args`, `Returns`/`Raises`).
+
+<br>
+<hr>
+<br>
+
+<div align="center">
+    <img src="assets/README/footer.png" />
+</div>
